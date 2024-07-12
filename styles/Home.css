@@ -1,0 +1,179 @@
+* {
+   /* border: 1px red solid; */
+   font-family: monospace;
+   font-size: 1.1rem;
+}
+
+body {
+   padding: 0;
+   margin: 0;
+}
+
+nav {
+   display: flex;
+   flex-direction: row;
+   background-color: #5fa;
+   justify-content: space-between;
+   align-items: center;
+   margin: 10px 5px 0 5px;
+   padding: 10px;
+}
+
+.navBar {
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   justify-content: center;
+}
+
+.navItems {
+   padding: 7px 0;
+   margin-left: 5px;
+   background: #d1b5fb5a;
+   list-style: none;
+   border-radius: 10px;
+}
+
+.navItems:hover {
+   border: 2px #d1a0bc solid;
+   font-weight: 550;
+   margin: 0 5px;
+   font-style: oblique;
+}
+
+.navItems>a {
+   padding: 0 5px;
+   text-decoration: none;
+}
+
+#heading {
+   font-family: cursive;
+   text-align: center;
+   font-size: 1.8rem;
+   background-color: #808282c4;
+   color: #fe01aa;
+}
+
+#heading>span {
+   font-size: 1.9rem;
+   color: #feefef;
+}
+
+.container {
+   margin: -38px 10px 0 5px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 450px;
+   width: 99%;
+   background-image: url(../images/deehelth.PNG);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+
+.container>p {
+   text-align: justify;
+   color: #10fc86;
+   font-size: 1.6rem;
+   padding: 1rem;
+   font-weight: 555;
+}
+
+.special {
+   margin-top: -45px;
+   color: #f9ecce;
+   display: flex;
+   width: 99%;
+   align-items: baseline;
+   justify-content: space-around;
+}
+
+.list {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   gap: 8px;
+   color: #f9ecce;
+   font-size: 1.3rem;
+   border: none;
+   padding: 2px 10px;
+   background-color: #4d7561;
+   border-radius: 10px;
+   cursor: pointer;
+   text-decoration: none;
+   z-index: 10;
+}
+
+.list:hover {
+   padding: 0 8px;
+   border: #10fc86 2px solid;
+}
+
+#slogan>img {
+   margin-top: -73px;
+   margin-left: 2%;
+   width: 96%;
+   border: 5px dotted #540254;
+   border-bottom-width: 0;
+   background-color: #4d7561;
+   opacity: 0.1;
+   border-radius: 19px;
+   height: 370px;
+}
+
+.hidden {
+   display: none;
+   width: 60%;
+   margin-left: 160px;
+   margin-top: -240px;
+   position: relative;
+}
+
+#popup {
+   width: 60%;
+   margin-left: 160px;
+   margin-top: -240px;
+   position: absolute;
+   background-color: #9381814f;
+   padding: 15px;
+   border: 1px solid #ddd;
+   border-radius: 15px;
+}
+
+#trigger1 {
+   border: 1px solid saddlebrown;
+}
+
+#sloganimg>img {
+   margin-top: -90px;
+   margin-left: 2%;
+   width: 30%;
+   height: 50%;
+}
+
+footer {
+   background-color: #540254;
+   height: 86px;
+   width: 96vw;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-around;
+   position: relative;
+   bottom: 0;
+   margin-top: 20px;
+   margin-left: 1vw;
+   margin-bottom: 5px;
+}
+
+.footer-bar>p {
+   font-family: sans-serif !important;
+   color: #10fc86;
+   padding: 0 10px;
+   margin: 0;
+}
+
+.footer-bar>p>span {
+   color: tomato;
+}
