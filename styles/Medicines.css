@@ -1,5 +1,71 @@
-*{
-   border: 1px solid salmon;
-   padding: 10px;
-   margin-top: 5px;
+body {
+   font-family: Arial, sans-serif;
+   line-height: 1.6;
+   max-width: 850px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+h1 {
+   color: #333;
+   border-bottom: 2px solid #333;
+   padding-bottom: 5px;
+   margin-bottom: 20px;
+}
+
+h2,
+h3 {
+   color: #555;
+   margin-top: 30px;
+   margin-bottom: 10px;
+}
+
+p {
+   color: #666;
+   margin-bottom: 15px;
+}
+
+ul {
+   color: #666;
+   margin-bottom: 15px;
+   list-style-type: disc;
+   margin-left: 20px;
+}
+
+ol {
+   color: #666;
+   margin-bottom: 15px;
+   margin-left: 20px;
+}
+
+li {
+   margin-bottom: 5px;
+   list-style: none;
+   /* remove default bullet */
+}
+
+li::before {
+   content: "";
+   /* empty content to use for the image */
+   display: inline-block;
+   width: 16px;
+   /* adjust width of the image */
+   height: 16px;
+   /* adjust height of the image */
+   margin-right: 10px;
+   /* spacing between image and text */
+   background-image: url('../images/send.png');
+   /* path to your custom image */
+   background-size: contain;
+   /* ensure the image fits within the specified width and height */
+   background-repeat: no-repeat;
+   /* prevent the image from repeating */
+   vertical-align: middle;
+   /* align image vertically with text */
+}
+
+.container {
+   justify-content: space-between;
+   display: flex;
+   flex-direction: row;
 }

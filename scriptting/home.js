@@ -1,5 +1,4 @@
 const triggers = document.querySelectorAll('.trigger');
-console.log(triggers);
 
 const popup = document.getElementById('popup');
 

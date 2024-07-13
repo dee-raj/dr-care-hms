@@ -5,6 +5,7 @@
    <title>Dr. CARE HMS</title>
    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
    <link rel="stylesheet" href="../styles/Patients.css">
+   <script src="../scriptting/patient.js"></script>
 </head>
 
 <body>
@@ -19,18 +20,18 @@
             Registration / Appointment
          </h2>
          <p id="reg-info">Capture and store patient information securely.</p>
-         <form action="#" name="registerForm" method="post">
+         <form action="./Home.html" id="registerForm" method="post">
             <div>
                <label>Full name<sup><span>&ast;</span></sup>:</label>
-               <input type="text" name="fullname" placeholder="eg- ram kumar" required>
+               <input type="text" id="fullname" placeholder="eg- ram kumar" required>
             </div>
             <div>
                <label>Age<sup><span>&ast;</span></sup>:</label>
-               <input type="text" name="age" placeholder="eg- 23" required>
+               <input type="text" id="age" placeholder="eg- 23" required>
             </div>
             <div>
                <label>Mobile number<sup><span>&ast;</span></sup>:</label>
-               <input type="text" name="fullname" placeholder="eg- 9067342851" required>
+               <input type="text" id="mobile" placeholder="eg- 9067342851" required>
             </div>
             <div>
                <label>Symptoms:</label>
@@ -41,8 +42,9 @@
                <input type="text" id="mail" placeholder="ram123@gamil.com">
             </div>
             <div>
-               <button type="submit" id="register-btn">Register Now</button>
+               <button type="submit" id="register-btn">Submit Now</button>
             </div>
+            <span id="dis"></span>
          </form>
          <img src="../images/schedule.webp" alt="bg-img">
       </div>

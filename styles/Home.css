@@ -27,8 +27,8 @@ nav {
 }
 
 .navItems {
-   padding: 7px 0;
-   margin-left: 5px;
+   padding: 7px 2px;
+   margin-left: 15px;
    background: #d1b5fb5a;
    list-style: none;
    border-radius: 10px;
@@ -37,7 +37,7 @@ nav {
 .navItems:hover {
    border: 2px #d1a0bc solid;
    font-weight: 550;
-   margin: 0 5px;
+   padding: 5px 0;
    font-style: oblique;
 }
 
