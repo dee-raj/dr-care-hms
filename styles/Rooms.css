@@ -1,0 +1,113 @@
+/* Reset some default styles */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/* Basic styling for the layout */
+body {
+   font-family: Arial, sans-serif;
+   line-height: 1.6;
+   background-color: #f0f0f0;
+   padding: 20px;
+}
+
+header {
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+header h1 {
+   color: #333;
+}
+
+main {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   margin: 0 auto;
+   background-color: #fff;
+   padding: 15px 5px;
+   border: 5px solid #ddd;
+   border-radius: 8px;
+   width: 100%;
+}
+
+.room-category {
+   padding: 10px 5px;
+   width: 100%;
+   display: flex;
+   height: 250px;
+   flex-direction: row;
+   overflow-x: scroll;
+   gap: 24px;
+   align-items: stretch;
+}
+
+.room-category-item {
+   min-width: 220px;
+   border: 1px solid #966969;
+   border-radius: 8px;
+   padding: 5px;
+   background-color: #eed2d2a7;
+}
+
+.room-category-item h3 {
+   color: #0fb00a;
+   margin-bottom: 10px;
+}
+
+.room-category-item p {
+   color: #666;
+   padding: 2px 5px;
+   text-align: justify;
+   margin-bottom: 10px;
+}
+
+.view-details-btn {
+   margin-top: 5%;
+   background-color: #007bff;
+   color: #fff;
+   border: none;
+   padding: 7px 14px;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.view-details-btn:hover {
+   background-color: #0056b3;
+   border: 1px #0fb00a solid;
+}
+
+.details-panel {
+   display: none;
+   margin: 10px 0;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 8px;
+   background-color: #f0f0f0;
+}
+
+.details-panel.show {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   border: 2px solid saddlebrown;
+}
+
+.details-panel.show img {
+   width: 425px;
+   height: 300px;
+   border-radius: 8px;
+   margin-bottom: 10px;
+}
+
+
+footer {
+   text-align: center;
+   margin-top: 20px;
+   padding: 10px 0;
+   background-color: #333;
+   color: #fff;
+}

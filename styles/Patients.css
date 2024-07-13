@@ -1,0 +1,139 @@
+body {
+   font-size: larger;
+   background-color: #9d0dfd35;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+   height: 40px;
+   width: 99%;
+   background-color: #b4039f;
+   align-items: center;
+   text-align: center;
+}
+
+.heading {
+   padding: 5px;
+   font-style: normal;
+   font-size: 29px;
+   text-decoration: underline;
+   color: #09f44b;
+}
+
+main {
+   margin: 20px 0;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   gap: 15px;
+}
+
+.container {
+   width: 60%;
+   background-color: #d1fcfde4;
+   padding: 5px 0;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   border-radius: 10px;
+   border: #b01f9a76 solid 2px;
+}
+
+#reg-info {
+   margin: 20px 10px;
+   text-align: center;
+   font-size: 24px;
+}
+
+.container>img {
+   margin-top: -300px;
+   width: 50vw;
+   height: 50vh;
+   opacity: 0.2;
+}
+
+form {
+   z-index: 100;
+   width: 96%;
+   border-radius: 2px;
+}
+
+sup {
+   color: red;
+}
+
+form>div {
+   margin-bottom: 10px;
+   padding-top: 5px;
+   display: flex;
+   flex-direction: row;
+   align-items: start;
+   justify-content: space-around;
+}
+
+form>div>input,
+label {
+   width: 50%;
+   font-size: 22px;
+   border-radius: 5px;
+}
+
+#symptoms {
+   font-size: 24px;
+   resize: none;
+   width: 100%;
+}
+
+#register-btn {
+   height: 50px;
+   width: 200px;
+   background: #09f44b;
+   font-size: 28px;
+   font-weight: 600;
+   color: #b4039f;
+   border: 2px #fa3490 solid;
+   border-radius: 20px;
+}
+
+#register-btn:hover {
+   color: #09f44b;
+   background: #fa3490;
+   z-index: 1000;
+}
+
+.container-box {
+   width: 40%;
+   display: flex;
+   flex-direction: column;
+   background-color: #83f1a267;
+   justify-content: space-between;
+}
+
+.box {
+   border: 1px solid red;
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column-reverse;
+}
+
+.box-txt {
+   z-index: 100;
+   text-align: center;
+   color: tomato;
+   background-color: #d1fcfde4;
+   margin: 0 10px;
+   border-radius: 5px;
+   margin-top: 5px;
+}
+
+.box>img {
+   height: 240px;
+   width: 100%;
+   object-fit: fill;
+}
+
+.icons {
+   height: 25px;
+   width: 30px;
+}
