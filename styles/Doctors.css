@@ -1,13 +1,137 @@
-* {
-   border: 1px solid salmon;
-   padding: 10px;
-   margin-top: 5px;
+/* Global Styles */
+body {
+   font-family: Arial, sans-serif;
+   line-height: 1.6;
+   background-color: #f4f4f4;
+   margin: 0;
+   padding: 0;
 }
 
-footer {
-   text-align: center;
-   margin-top: 20px;
-   padding: 10px 0;
-   background-color: #333;
+.container {
+   width: 80%;
+   margin: auto;
+}
+
+.header {
+   background: #333;
    color: #fff;
+   text-align: center;
+   padding: 10px 0;
+}
+
+.header h1 {
+   margin: 0;
+}
+
+.main {
+   padding: 20px 0;
+}
+
+.doctor-profile {
+   border: 1px solid rebeccapurple;
+   display: flex;
+   padding: 10px 5px;
+   margin-bottom: 10px;
+   flex-direction: row;
+   justify-content: space-between;
+   gap: 14px;
+   align-items: center;
+   background: #fff;
+}
+
+.doc-container {
+   width: 100%;
+   background-color: #0057b326;
+   border-radius: 10px;
+   border: 2px solid blue;
+   padding: 5px;
+}
+
+.doctor-photo img {
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   border: 2px solid #ddd;
+}
+
+.doctor-info {
+   flex: 1;
+   padding: 0 20px;
+}
+
+.doctor-name {
+   font-size: 24px;
+   margin-top: 0;
+   color: #333;
+}
+
+.doctor-specialty {
+   font-size: 18px;
+   margin-top: 5px;
+   color: #666;
+}
+
+.doctor-bio {
+   color: #444;
+}
+
+.doctor-details {
+   list-style: none;
+   padding: 0;
+   margin: 10px 0;
+}
+
+.doctor-details li {
+   color: #555;
+}
+
+.contact-link {
+   display: inline-block;
+   background: #007bff;
+   color: #fff;
+   text-decoration: none;
+   padding: 10px 20px;
+   margin-top: 10px;
+   border-radius: 5px;
+}
+
+.contact-link:hover {
+   background: #0056b3;
+}
+.box{
+   display: flex;
+   flex-direction: row;
+}
+.container-box {
+   width: 30%;
+   background: #fff;
+   padding: 20px;
+   margin-bottom: 20px;
+}
+
+.container-box h2 {
+   color: #333;
+   margin-top: 0;
+}
+.container-box ul {
+   list-style-type: none;
+   padding: 0;
+}
+.container-box ul li {
+   color: #555;
+   margin-bottom: 5px;
+}
+
+.footer {
+   background: #333;
+   color: #fff;
+   text-align: center;
+   padding: 10px 0;
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+}
+
+.footer p {
+   margin: 0;
 }

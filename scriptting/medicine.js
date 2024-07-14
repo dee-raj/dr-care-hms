@@ -70,7 +70,7 @@ function updateDrugInfo(id) {
       document.getElementById('title').textContent = medicine.title;
       document.getElementById('info').textContent = medicine.info;
       document.getElementById('info-img').src = medicine.imgUrl;
-      document.getElementById('info-img').alt = `Image of ${medicine.info}`;
+      document.getElementById('info-img').alt = `Image of ${medicine.title}`;
    } else {
       console.error(`Medicine with ID ${id} not found.`);
    }
