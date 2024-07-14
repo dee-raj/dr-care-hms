@@ -1,21 +1,31 @@
 body {
    font-family: Arial, sans-serif;
    line-height: 1.6;
-   max-width: 850px;
-   margin-left: auto;
-   margin-right: auto;
+   max-width: 1250px;
+   margin: 0 auto;
+   overflow-x: clip;
+}
+
+.para-text {
+   padding: 0 40px;
+   background-color: #b8b8b858;
+   margin: 5px 10px;
+   border-radius: 6px;
 }
 
 h1 {
-   color: #333;
-   border-bottom: 2px solid #333;
+   color: #407844;
+   text-align: center;
+   border-bottom: 2px solid #03310b;
    padding-bottom: 5px;
    margin-bottom: 20px;
+   border-radius: 10px;
 }
 
 h2,
 h3 {
-   color: #555;
+   text-align: center;
+   color: #8a2838;
    margin-top: 30px;
    margin-bottom: 10px;
 }
@@ -23,6 +33,11 @@ h3 {
 p {
    color: #666;
    margin-bottom: 15px;
+   text-align: justify;
+   font-family: monospace;
+   font-size: 16px;
+   padding: 0 10px;
+   padding-bottom: 5px;
 }
 
 ul {
@@ -30,6 +45,7 @@ ul {
    margin-bottom: 15px;
    list-style-type: disc;
    margin-left: 20px;
+   list-style-type: square
 }
 
 ol {
@@ -40,32 +56,81 @@ ol {
 
 li {
    margin-bottom: 5px;
-   list-style: none;
-   /* remove default bullet */
-}
-
-li::before {
-   content: "";
-   /* empty content to use for the image */
-   display: inline-block;
-   width: 16px;
-   /* adjust width of the image */
-   height: 16px;
-   /* adjust height of the image */
-   margin-right: 10px;
-   /* spacing between image and text */
-   background-image: url('../images/send.png');
-   /* path to your custom image */
-   background-size: contain;
-   /* ensure the image fits within the specified width and height */
-   background-repeat: no-repeat;
-   /* prevent the image from repeating */
-   vertical-align: middle;
-   /* align image vertically with text */
+   color: #f41919;
+   font-weight: 600;
 }
 
 .container {
    justify-content: space-between;
    display: flex;
    flex-direction: row;
+   background-image: url('../images/doctors.webp');
+   background-size: cover;
+   background-position: center;
+}
+
+.container-box {
+   border: 2px solid red;
+   margin: 20px 10px;
+   background: #a7f2e6;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-direction: row;
+}
+
+#drug-info {
+   position: relative;
+   background-color: #f0f0f0;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+}
+
+#title {
+   font-size: 24px;
+   margin: 5px auto;
+   color: #333;
+}
+
+#info {
+   font-size: 16px;
+   line-height: 1.6;
+   color: #420f6c;
+}
+
+#info-img {
+   height: 250px;
+   width: 550px;
+   border-radius: 5px;
+   object-fit: cover;
+   margin-left: 15px;
+   border: 1px solid seagreen;
+   border-radius: 10px;
+}
+
+#medicine-list {
+   height: 400px;
+   width: 300px;
+   padding: 10px;
+}
+
+#medicine-list span {
+   border: 1px solid #8b4513c6;
+   display: block;
+   padding-left: 3px;
+   margin-bottom: 10px;
+}
+
+#medicine-list span:hover {
+   cursor: pointer;
+   border-radius: 10px;
+   background-color: #f0f0f0;
+}
+
+footer {
+   text-align: center;
+   margin-top: 20px;
+   padding: 10px 0;
+   background-color: #333;
+   color: #fff;
 }
