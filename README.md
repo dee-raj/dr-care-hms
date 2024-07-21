@@ -1,14 +1,19 @@
 # Dr. CARE HMS (Hospital Management System)
 
 Dr. CARE HMS is a simple Hospital Management System built using HTML, CSS, and JavaScript. It allows hospital staff to manage patient records, appointments, and medical history efficiently.
+---
+![Dr. CARE HMS Screenshot](pages/images/logo.PNG)
+[![Dr. CARE HMS Screenshot](pages/images/Home.PNG)](https://dr-care-hms.vercel.app/)
 
 ## Demo
 
 Explore a live demo of Dr. CARE HMS to see its features in action:
 
-- **Demo Link:** [Dr. CARE HMS Demo](http://example.com)
+- **Demo Link:** [Dr. CARE HMS Demo](https://dr-care-hms.vercel.app/)
 
 Feel free to interact with the patient management, appointment scheduling, and other features to get a sense of how Dr. CARE HMS can streamline hospital management tasks.
+
+---
 
 ## Features
 
@@ -41,7 +46,7 @@ To run Dr. CARE HMS locally:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your/repository.git
+   git clone https://github.com/dee-raj/dr-care-hms.git
    ```
 
 2. Navigate to the project directory:
