@@ -1,73 +1,86 @@
-<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=dee-raj.dee-raj" />
+# Dr. CARE HMS (Hospital Management System)
 
-<h1 align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Dee-raj!;" />
-</h1>
+Dr. CARE HMS is a simple Hospital Management System built using HTML, CSS, and JavaScript. It allows hospital staff to manage patient records, appointments, and medical history efficiently.
 
-<h3 align="center">A passionate fullstack developer and a system administrator from Canada 🇨🇦</h3>
+## Demo
 
-<br/>
+Explore a live demo of Dr. CARE HMS to see its features in action:
 
-<div align="center">
- 
- 🔭 I’m currently working on My **[Cron-Commander](https://github.com/dee-raj/Cron-Commander)** Project.
- 
- 🌱 I’m currently learning **Django, Next.js**
+- **Demo Link:** [Dr. CARE HMS Demo](http://example.com)
 
-💬 Ask me about **Python, Django, Express.js, Node.js, React, Self-hosting... or anything [here](https://github.com/dee-raj/dee-raj/issues)**
+Feel free to interact with the patient management, appointment scheduling, and other features to get a sense of how Dr. CARE HMS can streamline hospital management tasks.
 
-⚡ Fun fact **Did you know that the first 1GB hard drive, released in 1980 by IBM, weighed over 500 pounds and cost $40,000?**
+## Features
 
- </div>
- 
-<div align="center"> 
-  <a href="mailto:dee-raj@icloud.com">
-    <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red" />
-  </a>
-  <a href="https://linkedin.com/in/dee-raj" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
-  </a>
-  <a href="https://dee-raj.in" target="_blank">
-     <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white" target="_blank" /> <!-- sqlite, safari, google-chrome are other good icon options -->
-  </a>
-</div>
+- **Patient Management:**
+  - Add, edit, and delete patient records.
+  - View patient details including medical history.
 
- <hr/>
- 
-<h2 align="center">⚒️ Languages-Frameworks-Tools ⚒️</h2>
-<br/>
-<div align="center">
-    <img src="https://skillicons.dev/icons?i=react,bootstrap,html,css,vscode,github,figma,tailwind,git" />
-    <img src="https://skillicons.dev/icons?i=nodejs,python,javascript,typescript,express,firebase,mongodb,c,java,nextjs,mysql,flask" />
-    <br>
-    <img src="https://skillicons.dev/icons?i=aws,gcp,azure,heroku,ansible,docker,postman" />
-</div>
+- **Appointment Management:**
+  - Schedule, reschedule, and cancel appointments.
+  - View upcoming appointments.
 
-<br/>
-<hr/>
+- **User-friendly Interface:**
+  - Intuitive design for easy navigation.
+  - Responsive layout suitable for desktop and mobile devices.
 
-<div align="center">
-  <h2>🐍 My Contributions 🐍</h2>
-  <br>
-  <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/dee-raj/dee-raj/output/github-contribution-grid-snake.svg" />
+- **Resource Directory:**
+  - All images can be found in `/images/` and
+  - Images for medicines and room types are stored under `/images/medicines` and `/images/rooms` respectively.
+
+
+## Technologies Used
+
+- **HTML:** Provides the structure and content of the application.
+- **CSS:** Styles the HTML elements for a visually appealing interface.
+- **JavaScript:** Implements functionality such as data manipulation and event handling.
+
+## Installation
+
+To run Dr. CARE HMS locally:
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/your/repository.git
+   ```
+
+2. Navigate to the project directory:
+   ```
+   cd dr-care-hms
+   ```
+
+3. Open `index.html` in your web browser to start using Dr. CARE HMS.
+
+## Usage
+
+- **Patient Management:**
+  - Click on "Patients" to view, add, edit, or delete patient records.
+  - Each patient record includes basic information and medical history.
   
-  <br/><br/><br/>
-</div>
+### Appointment Management
 
-<hr/>
+- **Appointment Scheduling:** 
+  - Schedule appointments with doctors and healthcare providers.
+  - Manage appointment slots and availability, with options to reschedule or cancel appointments as needed.
 
-<h2 align="center">⚡ Stats ⚡</h2>
-<br>
-<div align=center>
- <img width=390 src="https://github-readme-stats.vercel.app/api?username=dee-raj&theme=vue-dark&show_icons=true&hide_border=true&count_private=true" alt="github stats"/>
-  <img width=390 src="https://github-readme-streak-stats.herokuapp.com/?user=dee-raj&theme=vue-dark&hide_border=true" alt="streak stats" />
-  <br/>
-  <img width=325 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dee-raj&theme=vue-dark&show_icons=true&hide_border=true&layout=compact" alt="top langs" />
-</div>
+- **Reminders and Notifications:** 
+  - Send automated reminders to patients about upcoming appointments via email or SMS.
+  - Notify healthcare providers of schedule changes and patient arrivals.
 
-<br/><br/>
+- **Responsive Design:**
+  - The application is responsive, adapting to different screen sizes.
+  - Accessible on both desktop and mobile devices.
 
-<hr/>
+## Contributing
 
-<br/>
-<br/>
+Contributions are welcome! If you'd like to add new features or improve existing ones, feel free to fork the repository and submit a pull request.
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Inspired by the need for simple and efficient hospital management tools.
+- Built as a project for learning HTML, CSS, and JavaScript.
