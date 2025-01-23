@@ -1,8 +1,10 @@
 # Dr. CARE HMS (Hospital Management System)
 
 Dr. CARE HMS is a simple Hospital Management System built using HTML, CSS, and JavaScript. It allows hospital staff to manage patient records, appointments, and medical history efficiently.
+
 ---
 ![Dr. CARE HMS Screenshot](pages/images/logo.PNG)
+
 [![Dr. CARE HMS Screenshot](pages/images/Home.PNG)](https://dr-care-hms.vercel.app/)
 
 ## Demo
